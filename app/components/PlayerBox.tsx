@@ -1,6 +1,3 @@
-import React from "react";
-import Player from "./Player";
-
 export default function PlayerBox(prop: { player: string; removePlayer: (name: string) => void }) {
     return (
         <div className="border border-gray-300 rounded p-4 mb-4">
@@ -12,7 +9,6 @@ export default function PlayerBox(prop: { player: string; removePlayer: (name: s
                 >
                     Remove
                 </button>
-            
         </div>
     );
 }         

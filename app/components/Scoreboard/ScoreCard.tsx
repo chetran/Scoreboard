@@ -1,6 +1,5 @@
 import {useState} from "react";
 import Statbox from "./StatBox";
-import GameRules from "./GameSettings";
 
 export default function ScoreCard(props: {players: string[]; gameRules: any}) {
     console.log(props.gameRules);

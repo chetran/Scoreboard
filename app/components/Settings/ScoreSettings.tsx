@@ -1,12 +1,10 @@
 import { useState } from "react";
-import Player from "./Player";
-import AddPlayers from "./AddPlayers";
+import AddPlayers from "../AddPlayers";
 import ListPlayers from "./ListPlayers";
 import GameSettings from "./GameSettings";
 import ExtraSettings from "./ExtraSettings";
 import StartSection from "./StartSection";
 import { useNavigate } from "react-router";
-import Rule from "./Rule";
 
 export default function ScoreSettings() {
 
@@ -43,6 +41,7 @@ export default function ScoreSettings() {
 
   const startGame = () => {
     if (players.length < 2) {
+      // TODO: Replace with a nicer UI alert
       alert("Please add at least two players to start the game.");
       return;
     }

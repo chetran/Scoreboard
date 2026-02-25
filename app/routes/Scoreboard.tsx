@@ -1,6 +1,6 @@
 import Title from "~/components/Title";
 import { useSearchParams } from "react-router";
-import ScoreCard from "~/components/ScoreCard";
+import ScoreCard from "~/components/Scoreboard/ScoreCard";
 
 export default function Scoreboard() {
     const [searchParams] = useSearchParams();

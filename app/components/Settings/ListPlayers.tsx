@@ -1,5 +1,4 @@
-import Player from "./Player";
-import PlayerBox from "./PlayerBox";
+import PlayerBox from "../PlayerBox";
 
 export default function ListPlayers(prop: { playerNumber: number; players: string[]; removePlayer: (name: string) => void }) {
     return (

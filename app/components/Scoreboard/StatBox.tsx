@@ -1,8 +1,4 @@
-import {useState} from "react";
-
 export default function Statbox(prop: {title: string; value: string, win ?: boolean, handleWin: (fromPlayer: string) => void, selectWinner: (player: string) => void, winner ?: string}) {
-
-    
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg m-5 p-4 border border-gray-500 mx-auto">
             <div className="flex flex-col items-center w-full">
